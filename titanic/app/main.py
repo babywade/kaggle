@@ -49,7 +49,7 @@ print(test_process.select_dtypes('number'))
 
 # 特征编码(Target encoding)过程 
 # target encoding其实就是将分类特征替换为对应目标值的后验概率
-X_train = train_process.iloc[:,1:]
+X_train = train_process.iloc[:,1:] # loc由索引搜索 iloc由数字
 y_train = train_process.iloc[:,0]
 X_test = test_process
 
