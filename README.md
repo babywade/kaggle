@@ -2,7 +2,7 @@
 
 kaggle coding to learn ML
 
-a. 有时候git push有问题，需重启 代理 。
+a. 有时候git push有问题，需重启 代理 。？？？关闭vscode就推送成功，WSL占用网络的问题吗？
 
 **1. titanic**
 
